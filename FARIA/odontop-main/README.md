@@ -1,0 +1,5 @@
+O projeto que estou desenvolvendo tem como objetivo aplicar meus aprendizados em HTML, CSS e PHP, criando um site para uma clínica odontológica. O site terá uma estrutura básica com uma página inicial (Home), uma página "Outros" com links úteis e, principalmente, uma página de "Agenda" que será o foco principal do sistema.
+
+Na página de agenda, implementarei um sistema de agendamento de exames odontológicos, onde o usuário poderá preencher um formulário para marcar o dia do seu exame. O sistema estará integrado a dois bancos de dados hospedados em um servidor local. Um banco de dados será responsável pelo armazenamento das informações do agendamento, enquanto o outro permitirá ao usuário verificar quais datas foram marcadas para seus exames.
+
+Este projeto é um grande desafio, especialmente porque é a minha primeira vez trabalhando com banco de dados, e estou aprendendo a integrá-los ao PHP para que as funcionalidades do site sejam dinâmicas e eficientes. Estou empolgado com o processo de desenvolvimento e com a possibilidade de aprimorar minhas habilidades em criação de sites e gestão de dados.
