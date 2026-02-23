@@ -3,51 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>serviços</title>
+    <title>Serviços - Clínica Faria</title>
     <link rel="stylesheet" href="css/global.css">
-     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
- <nav>
-  <div class="nav-container">
+    <nav>
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="home.html">
+                    <img src="Imagens/dente.png" alt="Logo" class="nav-logo">
+                </a>
+                <span class="nav-title">Clínica Odontológica Faria</span>
+            </div>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="serviços.html">SERVIÇOS</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <div class="nav-brand">
-      <a href="home.html">
-        <img src="Imagens/dente.png" alt="Logo da Clínica" class="nav-logo">
-      </a>
-      <span class="nav-title">Clínica Odontológica Faria</span>
-    </div>
+    <main>
+        <header class="servicos-header">
+            <img src="Imagens/calendario.png" alt="Serviços" class="icon-header">
+            <h2>Portal de Agendamento</h2>
+            <p>Selecione uma das opções abaixo para prosseguir</p>
+        </header>
 
-    <ul>
-      <li><a href="home.html">HOME</a></li>
-      <li><a href="serviços.html">SERVIÇOS</a></li>
-      <li><a href="contato.html">CONTATO</a></li>
-    </ul>
+        <section class="servicos-grid">
+            <a href="formulario/formulario.html" class="action-card">
+                <div class="card-icon">📅</div>
+                <div class="card-text">
+                    <h3>Agende seu Exame</h3>
+                    <p>Marque sua consulta ou exame em poucos cliques.</p>
+                </div>
+                <span class="card-arrow">→</span>
+            </a>
 
-  </div>
-</nav> 
-
-
-    <header>
-        <img src="Imagens/calendario.png" alt="serviços" class="servicos">
-    </header>
-
-    <!-- Botão para acessar o formulário -->
-    <div class="button-container">
-        <a href="formulario/formulario.html">
-            <button class="form-btn">Agende seu Exame</button>
-        </a>
-    </div>
-
-    <div class="button-container">
-        <a href="consulta_agendamento/formulario_consulta.html">
-            <button class="form-btn">Verificar Agendamentos</button>
-        </a>
-    </div>
+            <a href="consulta_agendamento/formulario_consulta.html" class="action-card">
+                <div class="card-icon">🔍</div>
+                <div class="card-text">
+                    <h3>Verificar Agendamentos</h3>
+                    <p>Veja os detalhes das suas consultas marcadas.</p>
+                </div>
+                <span class="card-arrow">→</span>
+            </a>
+        </section>
+    </main>
 
     <footer>
         <p>&copy; 2026 Faria - Todos os direitos reservados.</p>
     </footer>
-
 </body>
 </html>
